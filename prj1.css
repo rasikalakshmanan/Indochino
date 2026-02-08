@@ -201,7 +201,15 @@ p.h4{
 }
 p.visit{
     color: white;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+@media(max-width:390px){
+    p.visit{
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
 }
 p.h6{
     color: white;
@@ -212,6 +220,22 @@ p.h6{
 }
 .sec6{
     /* background-color: rgb(64, 13, 115); */
+}
+.inbox-indo{
+    /* background-color: orange; */
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+.line1{
+    font-family: 'Franklin G othic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    
 }
 .inbox6{
      height: 400px;
@@ -270,7 +294,7 @@ p.custom{
 }
 @media(max-width:390px){
     p.custom{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 p.for{
@@ -315,39 +339,4 @@ p.copy{
 
 }
  
- 
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-
-
- 
- 
- 
- 
- 
-
-
- 
-
-
-
  
